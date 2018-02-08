@@ -11,7 +11,9 @@ import com.example.akankshasingh.ecommerce.R;
 import com.example.akankshasingh.ecommerce.models.CategoriesData;
 
 import java.util.List;
-
+/**
+ * Created by Akanksha.Singh on 2/6/2018.
+ */
 public class HomeAdapter extends RecyclerView.Adapter<HomeAdapter.ViewHolder> {
     private final OnItemClickListener listener;
     private List<CategoriesData> data;

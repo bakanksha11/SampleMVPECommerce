@@ -1,9 +1,8 @@
 package com.example.akankshasingh.ecommerce.models;
 
 /**
- * Created by Akanksha.Singh on 1/29/2018.
+ * Created by Akanksha.Singh on 2/7/2018.
  */
-
 public class VariantsData {
 
     private String id;

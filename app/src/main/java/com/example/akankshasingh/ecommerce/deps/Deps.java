@@ -9,7 +9,7 @@ import javax.inject.Singleton;
 import dagger.Component;
 
 /**
- * Created by ennur on 6/28/16.
+ * Created by Akanksha.Singh on 2/6/2018.
  */
 @Singleton
 @Component(modules = {NetworkModule.class,})

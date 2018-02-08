@@ -7,9 +7,9 @@ import retrofit2.http.GET;
 import rx.Observable;
 
 /**
- * Created by ennur on 6/25/16.
+ * Created by Akanksha.Singh on 2/6/2018.
  */
-public interface NetworkService {
+public interface MyApiInterface {
 
     @GET("json")
     Observable<JsonData> getJsonData();

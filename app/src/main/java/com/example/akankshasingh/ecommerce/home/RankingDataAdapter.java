@@ -11,9 +11,8 @@ import com.example.akankshasingh.ecommerce.R;
 import com.example.akankshasingh.ecommerce.models.RankingsData;
 
 import java.util.List;
-
 /**
- * Created by Akanksha.Singh on 2/6/2018.
+ * Created by Akanksha.Singh on 2/7/2018.
  */
 
 public class RankingDataAdapter extends RecyclerView.Adapter<RankingDataAdapter.ViewHolder> {

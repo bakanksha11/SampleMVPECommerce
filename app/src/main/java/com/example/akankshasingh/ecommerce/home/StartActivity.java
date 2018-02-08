@@ -10,7 +10,7 @@ import com.example.akankshasingh.ecommerce.R;
 
 
 /**
- * Created by Akanksha.Singh on 2/6/2018.
+ * Created by Akanksha.Singh on 2/5/2018.
  */
 
 public class StartActivity extends AppCompatActivity implements View.OnClickListener {

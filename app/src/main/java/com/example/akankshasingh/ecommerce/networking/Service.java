@@ -10,18 +10,18 @@ import rx.functions.Func1;
 import rx.schedulers.Schedulers;
 
 /**
- * Created by ennur on 6/25/16.
+ * Created by Akanksha.Singh on 2/6/2018.
  */
 public class Service {
-    private final NetworkService networkService;
+    private final MyApiInterface myApiInterface;
 
-    Service(NetworkService networkService) {
-        this.networkService = networkService;
+    Service(MyApiInterface myApiInterface) {
+        this.myApiInterface = myApiInterface;
     }
 
     public Subscription getJsonData(final GetJsonDataCallback callback) {
 
-        return networkService.getJsonData()
+        return myApiInterface.getJsonData()
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .onErrorResumeNext(new Func1<Throwable, Observable<? extends JsonData>>() {

@@ -9,7 +9,7 @@ import rx.Subscription;
 import rx.subscriptions.CompositeSubscription;
 
 /**
- * Created by ennur on 6/25/16.
+ * Created by Akanksha.Singh on 2/6/2018.
  */
 public class HomePresenter {
     private final Service service;

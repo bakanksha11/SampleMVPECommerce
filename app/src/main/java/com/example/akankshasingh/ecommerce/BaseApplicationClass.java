@@ -10,9 +10,9 @@ import com.example.akankshasingh.ecommerce.networking.NetworkModule;
 import java.io.File;
 
 /**
- * Created by ennur on 6/28/16.
+ * Created by Akanksha.Singh on 2/6/2018.
  */
-public class BaseApp  extends AppCompatActivity{
+public class BaseApplicationClass extends AppCompatActivity{
     Deps deps;
 
     @Override

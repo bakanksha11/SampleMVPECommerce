@@ -8,7 +8,7 @@ import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.example.akankshasingh.ecommerce.BaseApp;
+import com.example.akankshasingh.ecommerce.BaseApplicationClass;
 import com.example.akankshasingh.ecommerce.R;
 import com.example.akankshasingh.ecommerce.models.CategoriesData;
 import com.example.akankshasingh.ecommerce.models.JsonData;
@@ -21,7 +21,10 @@ import java.util.Comparator;
 
 import javax.inject.Inject;
 
-public class HomeActivity extends BaseApp implements HomeView {
+/**
+ * Created by Akanksha.Singh on 2/5/2018.
+ */
+public class HomeActivity extends BaseApplicationClass implements HomeView {
 
     @Inject
     public Service service;

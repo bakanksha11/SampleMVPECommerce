@@ -2,7 +2,10 @@ package com.example.akankshasingh.ecommerce.networking;
 
 import com.google.gson.annotations.SerializedName;
 
-public class Response {
+/**
+ * Created by Akanksha.Singh on 2/6/2018.
+ */
+public class NetworkResponse {
     @SerializedName("status")
     public String status;
 
@@ -15,10 +18,10 @@ public class Response {
     }
 
     @SuppressWarnings({"unused", "used by Retrofit"})
-    public Response() {
+    public NetworkResponse() {
     }
 
-    public Response(String status) {
+    public NetworkResponse(String status) {
         this.status = status;
     }
 }

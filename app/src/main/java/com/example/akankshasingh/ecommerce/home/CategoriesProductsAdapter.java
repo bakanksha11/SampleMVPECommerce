@@ -15,7 +15,6 @@ import java.util.List;
 /**
  * Created by Akanksha.Singh on 2/7/2018.
  */
-
 public class CategoriesProductsAdapter extends RecyclerView.Adapter<CategoriesProductsAdapter.ViewHolder> {
     private List<VariantsData> data;
     private Context context;

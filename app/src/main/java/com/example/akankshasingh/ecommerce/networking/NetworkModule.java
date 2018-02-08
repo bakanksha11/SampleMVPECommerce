@@ -17,7 +17,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 import retrofit2.converter.scalars.ScalarsConverterFactory;
 
 /**
- * Created by ennur on 6/28/16.
+ * Created by Akanksha.Singh on 2/6/2018.
  */
 @Module
 public class NetworkModule {
@@ -76,16 +76,16 @@ public class NetworkModule {
     @Provides
     @Singleton
     @SuppressWarnings("unused")
-    NetworkService providesNetworkService(
+    MyApiInterface providesNetworkService(
             Retrofit retrofit) {
-        return retrofit.create(NetworkService.class);
+        return retrofit.create(MyApiInterface.class);
     }
     @Provides
     @Singleton
     @SuppressWarnings("unused")
     Service providesService(
-            NetworkService networkService) {
-        return new Service(networkService);
+            MyApiInterface myApiInterface) {
+        return new Service(myApiInterface);
     }
 
 }

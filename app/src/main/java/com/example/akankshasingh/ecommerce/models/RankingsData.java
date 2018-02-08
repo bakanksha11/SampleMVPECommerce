@@ -3,9 +3,8 @@ package com.example.akankshasingh.ecommerce.models;
 import java.util.List;
 
 /**
- * Created by Akanksha.Singh on 1/29/2018.
+ * Created by Akanksha.Singh on 2/7/2018.
  */
-
 public class RankingsData {
     private String ranking;
     private List<ProductsData> products;

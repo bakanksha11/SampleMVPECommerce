@@ -11,7 +11,6 @@ import java.util.Map;
 import retrofit2.adapter.rxjava.HttpException;
 
 import static java.net.HttpURLConnection.HTTP_UNAUTHORIZED;
-
 public class NetworkError extends Throwable {
     private static final String DEFAULT_ERROR_MESSAGE = "Something went wrong! Please try again.";
     private static final String NETWORK_ERROR_MESSAGE = "No Internet Connection!";
@@ -55,7 +54,7 @@ public class NetworkError extends Throwable {
     private String getJsonStringFromResponse(final retrofit2.Response<?> response) {
         try {
             String jsonString = response.errorBody().string();
-            Response errorResponse = new Gson().fromJson(jsonString, Response.class);
+            NetworkResponse errorResponse = new Gson().fromJson(jsonString, NetworkResponse.class);
             return errorResponse.status;
         } catch (Exception e) {
             return null;

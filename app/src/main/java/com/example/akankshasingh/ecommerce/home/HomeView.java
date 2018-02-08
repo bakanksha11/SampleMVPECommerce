@@ -4,7 +4,7 @@ package com.example.akankshasingh.ecommerce.home;
 import com.example.akankshasingh.ecommerce.models.JsonData;
 
 /**
- * Created by ennur on 6/25/16.
+ * Created by Akanksha.Singh on 2/5/2018.
  */
 public interface HomeView {
     void showWait();
